@@ -3,7 +3,7 @@ import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/componen
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
 
 import TopNFTItems from "./top-nft-items"
-import { cn } from "@/lib/utils"
+// import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import AuctionCard2 from "./auction-card2"
 import Autoplay from "embla-carousel-autoplay"

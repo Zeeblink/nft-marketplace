@@ -8,10 +8,10 @@ interface AuctionCardProps {
     timeLeft: string
     biddersCount: number
     liked: boolean
-    likes: number
+    // likes: number
 }
 
-export default function AuctionCard2({ image, title, price, timeLeft, biddersCount, liked, likes }: AuctionCardProps) {
+export default function AuctionCard2({ image, title, price, timeLeft, biddersCount, liked }: AuctionCardProps) {
     return (
         <div className="group relative flex h-full w-full flex-col overflow-hidden p-2 sm:p-4 rounded-2xl transition-all snap-center">
             {/* Image */}
