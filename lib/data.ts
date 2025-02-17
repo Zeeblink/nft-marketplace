@@ -1,3 +1,23 @@
+// Hero Section
+export const brands = [
+    {
+      src: "/brand-Logos/ritter-sport.svg",
+      alt: "Ritter Sport",
+    },
+    {
+      src: "/brand-Logos/Nike.svg",
+      alt: "Nike",
+    },
+    {
+      src: "/brand-Logos/Adidas.svg",
+      alt: "Adidas",
+    },
+    {
+      src: "/brand-Logos/New-Holland.svg",
+      alt: "New Holland",
+    },
+  ];
+
 // Live Auctions Section
 export const AUCTIONS = [
     {
