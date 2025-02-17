@@ -40,7 +40,7 @@ export default function Hero() {
   ]
 
   return (
-    <div className="relative pt-24 sm:pt-10 lg:pt-20 bg-[url('/hero/background.svg')] bg-no-repeat bg-cover bg-center overflow-hidden">
+    <div className="relative sm:pt-10 lg:pt-20 bg-[url('/hero/background.svg')] bg-no-repeat lg:bg-cover bg-center overflow-hidden">
       {/* NFT Cards */}
       {nftCards.map((card) => (
         <NFTCard key={card.src} className={card.className} price={card.price} src={card.src} />
@@ -48,7 +48,7 @@ export default function Hero() {
 
       {/* Main Content */}
       <div className="container mx-auto px-4">
-        <div className="flex min-h-screen flex-col items-center justify-center pt-4 sm:pt-8 lg:pt-16">
+        <div className="flex min-h-screen flex-col items-center justify-center lg:pt-16">
           {/* NFT Text */}
           <div className="mb-4 text-center text-xs sm:text-sm font-medium uppercase tracking-wider text-white/60">
             NON FUNGIBLE TOKENS
@@ -90,19 +90,21 @@ export default function Hero() {
           </div>
 
           {/* Brand Logos */}
-          <div className="mx-auto mb-8 sm:mb-12 lg:mb-16 grid max-w-4xl grid-cols-2 gap-8 sm:gap-12 md:gap-16 lg:gap-20 opacity-60 md:grid-cols-4">
+          <div className="mx-auto lg:mb-16 grid max-w-4xl grid-cols-2 gap-y-8 gap-x-10 sm:gap-10 md:gap-16 lg:gap-20 opacity-60 md:grid-cols-4">
             {brands.map((brand) => (
               <div key={brand.alt} className="flex items-center justify-center">
                 <Image
                   src={brand.src || "/placeholder.svg"}
                   alt={brand.alt}
-                  width="85"
-                  height="45"
-                  className="max-h-[45px] sm:max-h-[65px] md:max-h-[75px] lg:max-h-[85px] max-w-[25px] sm:max-w-[35px] md:max-w-[40px] lg:max-w-[45px]"
+                  width="75"
+                  height="40"
+                  className="max-h-[40px] sm:max-h-[55px] md:max-h-[65px] lg:max-h-[75px] 
+                   max-w-[45px] sm:max-w-[55px] md:max-w-[65px] lg:max-w-[75px]"
                 />
               </div>
             ))}
           </div>
+
         </div>
       </div>
     </div>
