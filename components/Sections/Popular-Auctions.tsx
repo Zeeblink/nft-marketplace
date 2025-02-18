@@ -49,7 +49,7 @@ export default function PopularAuctions() {
             </Carousel>
 
             <div className="flex justify-center items-center mb-20">
-                <Button variant="outline" className="">Show me more</Button>
+                <Button variant="outline">Show me more</Button>
             </div>
             <hr />
         </section>

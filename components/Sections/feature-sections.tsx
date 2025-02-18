@@ -18,10 +18,10 @@ export default function FeatureSection() {
                 aliquam commodo.
               </p>
               <div className="flex flex-col space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
-                <Button size="lg" className="w-full bg-[#4F46E5] text-white hover:bg-[#4F46E5]/90 sm:w-auto">
+                <Button size="lg" className="w-full text-white hover:bg-[#4F46E5]/90 sm:w-auto">
                   Get started
                 </Button>
-                <Button variant="outline" size="lg" className="w-full border-white/10 bg-white/5 text-white hover:bg-white/10 sm:w-auto">
+                <Button variant="outline" size="lg" className="w-full text-white hover:bg-white/10 sm:w-auto">
                   Learn more
                 </Button>
               </div>

@@ -15,7 +15,7 @@ interface AuctionCardProps {
 
 export default function AuctionCard({ image, title, price, timeLeft, bidders, biddersCount, liked, likes }: AuctionCardProps) {
   return (
-    <div className="group relative flex h-full w-full flex-col overflow-hidden border-2 p-4 rounded-2xl transition-all snap-center">
+    <div className="group relative flex h-full w-full flex-col overflow-hidden border p-4 rounded-2xl transition-all snap-center">
       {/* Image */}
       <div className="relative mb-4 aspect-square w-full overflow-hidden rounded-md h-auto md:h-80">
         <Image

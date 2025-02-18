@@ -18,7 +18,7 @@ const Footer = () => {
         <footer className="text-gray-400 p-4 sm:p-6 md:p-8">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 rounded-2xl overflow-hidden border border-gray-800">
                 {/* Left section - Kept full width on mobile */}
-                <div className="space-y-6 sm:space-y-12 md:space-y-24 p-6 md:p-8 border-b md:border-b-0 md:border-r border-gray-800">
+                <div className="space-y-6 sm:space-y-12 md:space-y-24 p-6 md:p-8 border-b md:border-b-0 md:border-r">
                     <div className="flex items-center space-x-2">
                         <div className="w-8 h-8 bg-purple-600 rounded-lg"></div>
                         <span className="text-white text-xl font-semibold">NFT Market</span>
@@ -41,7 +41,7 @@ const Footer = () => {
                             </a>
                         ))}
                     </nav>
-                    <Button className="bg-indigo-600 text-white px-4 sm:px-6 py-2 rounded-lg mt-4 hover:bg-indigo-700 w-full sm:w-auto">
+                    <Button className="text-white px-4 sm:px-6 py-2 rounded-lg mt-4 hover:bg-indigo-700 w-full sm:w-auto">
                         My account
                     </Button>
                     <div className="flex space-x-4 mt-6">

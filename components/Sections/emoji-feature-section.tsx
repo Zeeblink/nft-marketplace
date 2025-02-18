@@ -65,10 +65,10 @@ export default function EmojiFeatureSection() {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <Button size="lg" className="w-full sm:w-auto bg-[#514cff] text-white hover:bg-[#514cff]/90">
+              <Button variant="default" size="lg" className="w-full sm:w-auto text-white hover:bg-[#514cff]/90">
                 Get started
               </Button>
-              <Button variant="outline" size="lg" className="w-full sm:w-auto border-white/10 bg-white/5 text-white hover:bg-white/10">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto text-white hover:bg-white/10">
                 Learn more
               </Button>
             </div>

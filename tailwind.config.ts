@@ -36,8 +36,11 @@ export default {
           DEFAULT: "#7780A1", // Soft gray for muted elements
           foreground: "#D1D5DB",
         },
-        border: "#1A1C2C",
+        border: "#262840",
         ring: "#8A5CF5",
+      },
+      backgroundImage: {
+        "gradient-accent": "linear-gradient(to right, #4745D0, #2A27C9)", // main bg for buttons
       },
       borderRadius: {
         lg: "12px",

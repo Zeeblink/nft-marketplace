@@ -6,12 +6,12 @@ import { brands } from "@/lib/data"
 export default function Hero() {
   const nftCards = [
     {
-      className: "left-[10%] top-[30%] sm:left-[8%] sm:top-[20%] lg:left-[8%] lg:top-[30%]",
+      className: "left-[10%] top-[30%] sm:left-[8%] sm:top-[20%] lg:left-[8%] lg:top-[30%] hidden",
       price: "2.55",
       src: "/hero/square2.png",
     },
     {
-      className: "right-[5%] top-[35%] sm:right-[10%] sm:top-[18%] lg:right-[10%] lg:top-[25%]",
+      className: "right-[5%] top-[35%] sm:right-[10%] sm:top-[18%] lg:right-[10%] lg:top-[25%] hidden",
       price: "2.55",
       src: "/hero/square1.png",
     },
@@ -22,13 +22,13 @@ export default function Hero() {
     },
     {
       className:
-        "right-[8%] bottom-[15%] sm:right-[12%] sm:bottom-[18%] lg:right-[18%] lg:bottom-[19%] hidden sm:block",
+        "right-[8%] bottom-[15%] sm:right-[12%] sm:bottom-[18%] lg:right-[18%] lg:bottom-[19%] hidden lg:block",
       price: "2.55",
       src: "/hero/square5.png",
     },
     {
       className:
-        "left-[-1%] bottom-[10%] sm:left-[-1.5%] sm:bottom-[12%] lg:left-[-1.5%] lg:bottom-[15%] hidden md:block",
+        "left-[-1%] bottom-[10%] sm:left-[-1.5%] sm:bottom-[12%] lg:left-[-1.5%] lg:bottom-[15%] hidden lg:block",
       price: "0.12",
       src: "/hero/square6.png",
     },
@@ -40,7 +40,7 @@ export default function Hero() {
   ]
 
   return (
-    <div className="relative sm:pt-10 lg:pt-20 bg-[url('/hero/background.svg')] bg-no-repeat lg:bg-cover bg-center overflow-hidden">
+    <div className="relative sm:pt-20 lg:pt-20 bg-[url('/hero/background.svg')] bg-no-repeat lg:bg-cover bg-center overflow-hidden">
       {/* NFT Cards */}
       {nftCards.map((card) => (
         <NFTCard key={card.src} className={card.className} price={card.price} src={card.src} />
@@ -50,12 +50,12 @@ export default function Hero() {
       <div className="container mx-auto px-4">
         <div className="flex min-h-screen flex-col items-center justify-center lg:pt-16">
           {/* NFT Text */}
-          <div className="mb-4 text-center text-xs sm:text-sm font-medium uppercase tracking-wider text-white/60">
+          <div className="mb-4 text-center text-xs sm:text-sm font-medium uppercase tracking-wider muted">
             NON FUNGIBLE TOKENS
           </div>
 
           {/* Heading */}
-          <h1 className="mb-5 text-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-normal text-white">
+          <h1 className="mb-5 text-center text-4xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-normal text-white">
             <span className="flex items-center justify-center gap-2 mr-4 sm:mr-8 lg:mr-20">
               <span>A new NFT</span>
               <Image
@@ -85,7 +85,7 @@ export default function Hero() {
           </p>
 
           {/* Search Bar */}
-          <div className="mb-8 sm:mb-12 lg:mb-16 w-full max-w-xl px-4">
+          <div className="mb-8 sm:mb-12 lg:mb-16 w-[90%] max-w-xl px-4 ">
             <SearchBar />
           </div>
 

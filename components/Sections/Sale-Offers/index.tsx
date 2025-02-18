@@ -109,13 +109,13 @@ export default function SalesOffers() {
           </Card>
           
           {/* Middle Section */}
-          <div className="bg-gradient-to-b from-[#1D1E29] to-[#060714] min-h-auto text-white px-4 sm:px-8 lg:pl-20 py-8 sm:py-12 lg:py-16 relative border rounded-b-lg rounded-tr-lg">
+          <div className="bg-gradient-to-b from-[#1D1E29] to-[#060714] min-h-auto text-white px-4 sm:px-8 pt-0 pb-16 relative border rounded-b-lg rounded-tr-lg">
             <Image 
               src="/Pleat1.svg" 
               alt="pleat01" 
               width={150} 
               height={300} 
-              className="relative top-[-2rem] sm:top-[-3rem] lg:top-[-4.7rem] left-[-2rem] sm:left-[-3rem] lg:left-[-5rem]" 
+              className="hidden lg:block relative top-[-2rem] sm:top-[-3rem] lg:top-[-4.7rem] left-[-2rem] sm:left-[-3rem] lg:left-[-5rem]" 
             />
             <div className="flex items-center justify-center w-full h-[250px] sm:h-[300px] lg:h-[60%]">
               <div className="relative w-full h-full">
