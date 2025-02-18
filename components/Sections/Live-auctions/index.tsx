@@ -25,7 +25,7 @@ export default function AuctionsSection() {
                 ]}>
                     <CarouselContent>
                         {AUCTIONS.map((auction, i) => (
-                            <CarouselItem key={i} className="basis-1/4 min-w-[280px] md:min-w-[320px]3">
+                            <CarouselItem key={i} className="basis-1/4 min-w-[280px] md:w-full">
                                 <AuctionCard {...auction} />
                             </CarouselItem>
                         ))}
