@@ -3,7 +3,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/sheet"
 import { Menu, X } from "lucide-react"
 import { useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
@@ -32,7 +32,7 @@ export default function Navigation() {
 
         <div>
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex md:gap-6 lg:gap-10">
+          <nav className="hidden lg:flex md:gap-6 lg:gap-10">
             {menuItems.map((item) => (
               <Link
                 key={item.label}
@@ -47,15 +47,15 @@ export default function Navigation() {
 
         {/* Action Buttons */}
         <div className="flex items-center gap-4">
-          <Button variant="outline" className="hidden text-sm text-white/70 hover:text-white md:inline-flex">
+          <Button variant="outline" className="hidden text-sm text-white/70 hover:text-white lg:inline-flex">
             Contact
           </Button>
-          <Button className="hidden text-sm font-medium text-white md:inline-flex">My account</Button>
+          <Button className="hidden text-sm font-medium text-white lg:inline-flex">My account</Button>
 
           {/* Mobile Menu Button */}
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className="md:hidden">
+              <Button variant="ghost" size="icon" className="lg:hidden">
                 <Menu className="h-6 w-6 text-white" />
                 <span className="sr-only">Toggle menu</span>
               </Button>
@@ -64,6 +64,9 @@ export default function Navigation() {
               side="right"
               className="w-full border-l border-white/5 bg-[#060714]/95 p-0 backdrop-blur-xl sm:max-w-md"
             >
+              <SheetTitle className="sr-only">
+                Navigation Menu
+              </SheetTitle>
               <div className="flex h-full flex-col">
                 {/* Mobile Menu Header */}
                 <div className="flex h-16 items-center justify-between border-b border-white/5 px-6">

@@ -40,22 +40,22 @@ export default function Hero() {
   ]
 
   return (
-    <div className="relative pt-32 pb-20 lg:pt-20 lg:pb-14 bg-[url('/hero/background.svg')] bg-no-repeat lg:bg-cover bg-center overflow-hidden">
+    <div className="relative pt-36 pb-20  lg:pb-14 bg-[url('/hero/background.svg')] bg-no-repeat lg:bg-cover bg-center overflow-hidden">
       {/* NFT Cards */}
       {nftCards.map((card) => (
         <NFTCard key={card.src} className={`${card.className}`} price={card.price} src={card.src} />
       ))}
 
       {/* Main Content */}
-      <div className="container mx-auto px-4">
-        <div className="flex h-auto flex-col items-center justify-center lg:pt-16">
+      <div className="container mx-auto">
+        <div className="flex h-auto flex-col items-center justify-center">
           {/* NFT Text */}
           <div className="mb-4 text-center text-xs sm:text-sm font-medium uppercase tracking-wider muted">
             NON FUNGIBLE TOKENS
           </div>
 
           {/* Heading */}
-          <h1 className="mb-5 text-center text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-normal text-white">
+          <h1 className="mb-5 text-center text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-bold tracking-normal text-white">
             <span className="flex items-center justify-center gap-2 mr-4 sm:mr-8 lg:mr-20">
               <span>A new NFT</span>
               <Image
@@ -85,12 +85,12 @@ export default function Hero() {
           </p>
 
           {/* Search Bar */}
-          <div className="mb-8 sm:mb-12 lg:mb-16 w-[90%] max-w-xl px-4 ">
+          <div className="mb-8 sm:mb-12 lg:mb-16 w-[90%] max-w-fit sm:max-w-sm lg:max-w-[26rem]">
             <SearchBar />
           </div>
 
           {/* Brand Logos */}
-          <div className="mx-auto lg:mb-16 grid max-w-4xl grid-cols-2 gap-y-8 gap-x-10 sm:gap-10 md:gap-16 lg:gap-20 opacity-60 md:grid-cols-4">
+          <div className="mx-auto lg:mb-16 grid max-w-4xl grid-cols-2 gap-14 sm:gap-10 md:gap-16 lg:gap-20 opacity-60 sm:grid-cols-4">
             {brands.map((brand) => (
               <div key={brand.alt} className="flex items-center justify-center">
                 <Image
