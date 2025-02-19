@@ -7,7 +7,7 @@ export default function SearchBar() {
       <Input
         type="text"
         placeholder="Items, collections and creators"
-        className="h-10 sm:h-12 bg-white pl-3 sm:pl-4 pr-24 sm:pr-32 text-xs sm:text-base placeholder:text-gray-500 placeholder:lg:text-xs text-black focus:outline-none"
+        className="h-10 sm:h-12 bg-white pl-3 sm:pl-4 pr-24 sm:pr-32 text-base sm:text-base placeholder:text-gray-500 placeholder:text-[0.6rem] placeholder:sm:text-xs text-black focus:outline-none"
       />
       <div className="absolute right-0 top-0 flex h-full items-center gap-1 sm:gap-2 px-2 sm:px-4">
         <div className="h-5 sm:h-6 w-[1px] bg-gray-200" />

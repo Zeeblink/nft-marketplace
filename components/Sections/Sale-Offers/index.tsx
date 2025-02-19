@@ -14,7 +14,7 @@ export default function SalesOffers() {
 
   const Auctions = [
     {
-      image: "/topNFTs/image.png",
+      image: "/topNFTs/Image.png",
       title: "Vulputate felis purus viverra morbi feget",
       price: "2.55 ETH",
       timeLeft: "22:59 min left",
@@ -45,7 +45,7 @@ export default function SalesOffers() {
 
   const items = [
     {
-      image: "/topNfts/image1.png",
+      image: "/topNfts/Image1.png",
       title: "Vulputate felis purus viverra morbi feget",
       time: "22:59 min left",
       price: "2.55 ETH",
@@ -53,7 +53,7 @@ export default function SalesOffers() {
       liked: true,
     },
     {
-      image: "/topNfts/image2.png",
+      image: "/topNfts/Image2.png",
       title: "Vulputate felis purus viverra morbi feget",
       time: "22:59 min left",
       price: "2.55 ETH",
@@ -61,7 +61,7 @@ export default function SalesOffers() {
       liked: false,
     },
     {
-      image: "/topNfts/image3.png",
+      image: "/topNfts/Image3.png",
       title: "Vulputate felis purus viverra morbi feget",
       time: "22:59 min left",
       price: "2.55 ETH",
@@ -69,7 +69,7 @@ export default function SalesOffers() {
       liked: false,
     },
     {
-      image: "/topNfts/image4.png",
+      image: "/topNfts/Image4.png",
       title: "Vulputate felis purus viverra morbi feget",
       time: "22:59 min left",
       price: "2.55 ETH",
@@ -79,7 +79,7 @@ export default function SalesOffers() {
   ]
 
   return (
-    <section className="py-8 sm:py-12 lg:py-16 px-4 sm:px-8 lg:px-28 relative">
+    <section className="py-8 sm:py-12 lg:py-16 px-4 sm:px-32 lg:px-28 relative">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Left Card */}
@@ -88,7 +88,7 @@ export default function SalesOffers() {
               <CardTitle className="text-xl sm:text-2xl">Check out the hottest Sale offers</CardTitle>
             </CardHeader>
             <CardContent>
-              <Carousel 
+              <Carousel
                 plugins={[Autoplay({ delay: 2000 })]}
                 className="w-full"
               >
@@ -107,32 +107,31 @@ export default function SalesOffers() {
               <Button variant="outline" className="w-full">Show me more</Button>
             </CardFooter>
           </Card>
-          
+
           {/* Middle Section */}
           <div className="bg-gradient-to-b from-[#1D1E29] to-[#060714] min-h-auto text-white px-4 sm:px-8 pt-0 pb-16 relative border rounded-b-lg rounded-tr-lg">
-            <Image 
-              src="/Pleat1.svg" 
-              alt="pleat01" 
-              width={150} 
-              height={300} 
-              className="hidden lg:block relative top-[-2rem] sm:top-[-3rem] lg:top-[-4.7rem] left-[-2rem] sm:left-[-3rem] lg:left-[-5rem]" 
+            <Image
+              src="/Pleat1.svg"
+              alt="pleat01"
+              width={150}
+              height={300}
+              className="hidden lg:block relative top-[-2rem] sm:top-[-3rem] left-[-2rem] sm:left-[-3rem] lg:left-[-2.1rem] lg:top-[-1rem]"
             />
-            <div className="flex items-center justify-center w-full h-[250px] sm:h-[300px] lg:h-[60%]">
-              <div className="relative w-full h-full">
-                <Image 
-                  src="/hand-image.png" 
-                  alt="hand-image" 
-                  fill 
-                  className="object-contain"
-                />
-              </div>
+            <div className="flex items-center justify-center w-full h-[250px] sm:h-auto">
+              <Image
+                src="/hand-image.png"
+                alt="hand-image"
+                height={300}
+                width={200}
+                className="lg:object-cover sm:h-96 sm:w-96 lg:h-[30rem] lg:w-[80rem] relative lg:top-[-3.1rem]"
+              />
             </div>
           </div>
 
           {/* Right Card */}
           <Card className="w-full">
             <CardHeader>
-              <CardTitle className="text-xl sm:text-2xl text-start mb-8  lg:pr-8 tracking-wide">
+              <CardTitle className="text-xl sm:text-2xl text-start mb-8 tracking-wide">
                 Top NFTs at a lower price
               </CardTitle>
             </CardHeader>

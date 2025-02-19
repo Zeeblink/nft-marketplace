@@ -1,7 +1,7 @@
 // Hero Section
 export const brands = [
     {
-      src: "/brand-Logos/ritter-sport.svg",
+      src: "/brand-Logos/Ritter-sport.svg",
       alt: "Ritter Sport",
     },
     {
@@ -51,7 +51,7 @@ export const AUCTIONS = [
         likes: 98,
     },
     {
-        image: "/auctions/auction-image1.png",
+        image: "/auctions/auction-image4.png",
         title: "Mattis at diam lorem nam sed sociis",
         price: "1.63 ETH",
         timeLeft: "37:01 min left",
@@ -61,7 +61,7 @@ export const AUCTIONS = [
         likes: 146,
     },
     {
-        image: "/auctions/auction-image2.png",
+        image: "/auctions/auction-image5.png",
         title: "Digital Art Collection #156",
         price: "4.20 ETH",
         timeLeft: "12:15 min left",
@@ -85,7 +85,7 @@ export const AUCTIONS = [
 // Popular Auctions Section
 export const popularAuctions = [
     {
-        image: "/popularAuctions/image.png",
+        image: "/popularAuctions/Image.png",
         title: "Vulputate felis purus viverra morbi feget",
         price: "2.55 ETH",
         timeLeft: "22:59 min left",
@@ -94,7 +94,7 @@ export const popularAuctions = [
         likes: 120,
     },
     {
-        image: "/popularAuctions/image-1.png",
+        image: "/popularAuctions/Image-1.png",
         title: "Dui accumsan leo vestibulum ornare eu",
         price: "3.19 ETH",
         timeLeft: "2:41 min left",
@@ -103,7 +103,7 @@ export const popularAuctions = [
         likes: 570,
     },
     {
-        image: "/popularAuctions/image-2.png",
+        image: "/popularAuctions/Image-2.png",
         title: "Senectus adipiscing nascetur accumsan etiam",
         price: "1.11 ETH",
         timeLeft: "22:59 min left",
@@ -112,7 +112,7 @@ export const popularAuctions = [
         likes: 98,
     },
     {
-        image: "/popularAuctions/image-3.png",
+        image: "/popularAuctions/Image-3.png",
         title: "Senectus adipiscing nascetur accumsan etiam",
         price: "1.11 ETH",
         timeLeft: "22:59 min left",
@@ -121,7 +121,7 @@ export const popularAuctions = [
         likes: 98,
     },
     {
-        image: "/popularAuctions/image-4.png",
+        image: "/popularAuctions/Image-4.png",
         title: "Senectus adipiscing nascetur accumsan etiam",
         price: "1.11 ETH",
         timeLeft: "22:59 min left",
@@ -130,7 +130,7 @@ export const popularAuctions = [
         likes: 98,
     },
     {
-        image: "/popularAuctions/image-5.png",
+        image: "/popularAuctions/Image-5.png",
         title: "Senectus adipiscing nascetur accumsan etiam",
         price: "1.11 ETH",
         timeLeft: "22:59 min left",
@@ -142,20 +142,20 @@ export const popularAuctions = [
 
 // Marquee Section
 export const nfts = [
-    { price: "3.25", image: "/marquee/image-1.png" },
-    { price: "3.62", image: "/marquee/image-2.png" },
-    { price: "3.82", image: "/marquee/image-3.png" },
-    { price: "2.77", image: "/marquee/image-4.png" },
-    { price: "1.61", image: "/marquee/image-5.png" },
-    { price: "2.29", image: "/marquee/image-6.png" },
-    { price: "2.03", image: "/marquee/image-7.png" },
-    { price: "3.69", image: "/marquee/image-8.png" },
-    { price: "1.49", image: "/marquee/image-9.png" },
-    { price: "3.21", image: "/marquee/image-10.png" },
-    { price: "2.22", image: "/marquee/image-11.png" },
-    { price: "2.82", image: "/marquee/image-12.png" },
-    { price: "1.49", image: "/marquee/image-13.png" },
-    { price: "1.57", image: "/marquee/image-14.png" },
-    { price: "1.57", image: "/marquee/image-15.png" },
-    { price: "1.57", image: "/marquee/image-16.png" },
+    { price: "3.25", image: "/marquee/Image-1.png" },
+    { price: "3.62", image: "/marquee/Image-2.png" },
+    { price: "3.82", image: "/marquee/Image-3.png" },
+    { price: "2.77", image: "/marquee/Image-4.png" },
+    { price: "1.61", image: "/marquee/Image-5.png" },
+    { price: "2.29", image: "/marquee/Image-6.png" },
+    { price: "2.03", image: "/marquee/Image-7.png" },
+    { price: "3.69", image: "/marquee/Image-8.png" },
+    { price: "1.49", image: "/marquee/Image-9.png" },
+    { price: "3.21", image: "/marquee/Image-10.png" },
+    { price: "2.22", image: "/marquee/Image-11.png" },
+    { price: "2.82", image: "/marquee/Image-12.png" },
+    { price: "1.49", image: "/marquee/Image-13.png" },
+    { price: "1.57", image: "/marquee/Image-14.png" },
+    { price: "1.57", image: "/marquee/Image-15.png" },
+    { price: "1.57", image: "/marquee/Image-16.png" },
   ];

@@ -18,7 +18,7 @@ const Footer = () => {
         <footer className="text-gray-400 p-4 sm:p-6 md:p-8">
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 rounded-2xl overflow-hidden border border-gray-800">
                 {/* Left section - Kept full width on mobile */}
-                <div className="space-y-6 sm:space-y-12 md:space-y-24 p-6 md:p-8 border-b md:border-b-0 md:border-r">
+                <div className="order-3 md:order-2 lg:order-1 space-y-6 lg:space-y-12 p-6 md:p-8 border-b md:border-b-0 md:border-r">
                     <div className="flex items-center space-x-2">
                         <div className="w-8 h-8 bg-purple-600 rounded-lg"></div>
                         <span className="text-white text-xl font-semibold">NFT Market</span>
@@ -33,7 +33,7 @@ const Footer = () => {
                 </div>
 
                 {/* Middle section */}
-                <div className="p-6 md:p-8 border-b md:border-b-0 md:border-r border-gray-800">
+                <div className="order-1 md:order-1 lg:order-2 p-6 md:p-8 border-b md:border-b-0 md:border-r border-gray-800">
                     <nav className="space-y-3 mb-4">
                         {Links.map((link, i) => (
                             <a key={i} href="#" className="block text-sm text-white hover:text-gray-300">
@@ -53,8 +53,8 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* Right section - Hidden on tablet but visible on mobile and desktop */}
-                <div className="space-y-6 sm:space-y-12 md:space-y-24 p-6 md:py-8 md:px-6 col-span-1">
+                {/* Right section - Newsletter */}
+                <div className="order-2 md:order-1 lg:order-3 space-y-6 sm:space-y-12 lg:space-y-24 p-6 md:py-8 md:px-6 col-span-1">
                     <p className="text-sm lg:mb-32">
                         Nibh volutpat, aliquam id sagittis elementum. Pellentesque laoreet velit, sed egestas in. Id
                         nam semper dolor tellus vulputate eget turpis.
@@ -63,9 +63,9 @@ const Footer = () => {
                         <input
                             type="email"
                             placeholder="Newsletter"
-                            className="flex-grow text-xs px-8 py-3 rounded-l-lg bg-white text-gray-900"
+                            className="md:flex-grow text-xs px-8 py-3 rounded-l-lg bg-white text-gray-900"
                         />
-                        <button className="bg-white text-indigo-600 text-xs font-bold px-6 py-2 rounded-r-lg hover:bg-gray-200">
+                        <button className="bg-white text-indigo-600 text-xs font-bold px-5 md:px-6 py-2 rounded-r-lg hover:bg-gray-200">
                             Sign in
                         </button>
                     </div>
