@@ -10,7 +10,7 @@ export default function EmojiFeatureSection() {
           <div className="relative flex justify-center lg:justify-start order-1">
             <div className="relative h-[300px] w-[320px] sm:h-[350px] sm:w-[380px] md:h-[400px] md:w-[420px] lg:h-[450px] lg:w-[480px]">
               <Image
-                src="/cloud.png"
+                src="/emoji.png"
                 alt="3D Emoji Illustration"
                 fill
                 className="object-contain"

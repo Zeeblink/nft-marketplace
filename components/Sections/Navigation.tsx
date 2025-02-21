@@ -72,7 +72,7 @@ export default function Navigation() {
                 <div className="flex h-16 items-center justify-between border-b border-white/5 px-6">
                   <Link href="/" className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
                     <div className="relative h-16 w-24">
-                      <Image src="/logo.svg" alt="Logo" fill className="object-contain" />
+                      <Image src="/Logo.svg" alt="Logo" fill className="object-contain" />
                     </div>
                   </Link>
                   <SheetTrigger asChild>
